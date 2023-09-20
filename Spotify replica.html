@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="6.style.css">
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <title>Spotify replica</title>
+</head>
+<body>
+    <header>
+        <div class="menu_side">
+            <h1>Playlist</h1>
+            <div class="playlist">
+                <h4 class="active"><span></span><i class="bi bi-music-note-beamed"></i>Playlist</h4>
+                <h4><span></span><i class="bi bi-music-note-beamed"></i>Last Listening</h4>
+                <h4><span></span><i class="bi bi-music-note-beamed"></i>Recommended</h4>
+            </div>
+            <div class="menu_songs">
+                <li class="songItem">
+                    <span>01</span>
+                    <img src="Pictures/1.jpg" alt="">
+                    <h5>Asal Mein <br>
+                        <div class="subtitle">Darshan Raval</div>
+                    </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="1"></i>
+                </li>
+                <li class="songItem">
+                    <span>02</span>
+                    <img src="Pictures/2.jpg" alt="">
+                    <h5>Ek Tarfa <br>
+                        <div class="subtitle">Darshan Raval</div>
+                    </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="2"></i>
+                </li>
+                <li class="songItem">
+                    <span>03</span>
+                    <img src="Pictures/3.jpg" alt="">
+                    <h5>Mahiye Jinna Sohna <br>
+                        <div class="subtitle">Darshan Raval</div>
+                    </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="3"></i>
+                </li>
+                <li class="songItem">
+                    <span>04</span>
+                    <img src="Pictures/4.jpg" alt="">
+                    <h5>Piya Re <br>
+                        <div class="subtitle">Darshan Raval</div>
+                    </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="4"></i>
+                </li>
+                <li class="songItem">
+                    <span>05</span>
+                    <img src="Pictures/5.jpg" alt="">
+                    <h5>Kaise Ab Kahein <br>
+                        <div class="subtitle">Gaurav Chatterji</div>
+                    </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="5"></i>
+                </li>
+                <li class="songItem">
+                    <span>06</span>
+                    <img src="Pictures/6.jpg" alt="">
+                    <h5>On My Way <br>
+                        <div class="subtitle">Alan Walker,Sabrina Carpenter</div>
+                    </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="6"></i>
+                </li>
+                <li class="songItem">
+                    <span>07</span>
+                    <img src="Pictures/7.jpg" alt="">
+                    <h5>Mujhe Peene Do <br>
+                        <div class="subtitle">Darshan Raval</div>
+                    </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="7"></i>
+                </li>
+                <li class="songItem">
+                    <span>08</span>
+                    <img src="Pictures/8.jpg" alt="">
+                    <h5>Kaash Aisa Hota <br>
+                        <div class="subtitle">Darshan Raval</div>
+                    </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="8"></i>
+                </li>
+            </div>
+        </div>
+
+
+
+        <div class="song_side">
+            <nav>
+                <ul>
+                    <li>Discover <span></span></li>
+                    <li>My Library</li>
+                   <li>Radio</li>
+                </ul>
+                <div class="search">
+                    <i class="bi bi-search"></i>
+                    <input type="text" placeholder="Search Music..">
+                    <div class="search_results">
+                       <!---- <a href="" class="card">
+                            <img src="Pictures/1.jpg" alt="">
+                            <div class="content">
+                                Asal mein
+                                <div class="subtitle">Darshan Raval</div>
+                            </div>
+                        </a> -->
+                    </div>
+                </div>
+                <div class="user">
+                    <img src="Pictures/spotify.png" alt="">
+                </div>
+            </nav>
+            <div class="content">
+                <h1>WELCOME TO Spotify - Vansh</h1>
+                <div class="buttons">
+                    <button>PLAY</button>
+                    <button>FOLLOW</button>
+                </div>
+                <p>“Music gives a soul to the universe, wings to the mind, flight to the imagination, and life to everything.” – Plato <br>
+                “You have to take a deep breath, and allow the music to flow through you. Revel in it, allow yourself to awe. <br> When you play, allow the music to break your heart with its beauty.” – Kelly White  </p>
+            </div>
+            <div class="popular_song">
+                <div class="h4">
+                    <h4>Popular Song</h4>
+                    <div class="btn_s">
+                        <i class="bi bi-arrow-left-circle-fill" id="pop_song_left"></i>
+                        <i class="bi bi-arrow-right-circle-fill" id="pop_song_right"></i>
+                    </div>
+                </div>
+                <div class="pop_song">
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="Pictures/9.jpg" alt="">
+                            <i class="bi playListPlay bi-play-circle-fill" id="9"></i>
+                        </div>
+                
+                <h5>Apna Bana Le<br>
+                    <div class="subtitle">Arijit Singh</div>
+                </h5>   
+            </li>
+                        <li class="songItem">
+                            <div class="img_play">
+                                <img src="Pictures/10.jpg" alt="">
+                                <i class="bi playListPlay bi-play-circle-fill" id="10"></i>
+                            </div>
+                    
+                    <h5>Tum Prem Ho <br>
+                        <div class="subtitle">Mohit Lalwani</div>
+                    </h5>   
+                </li>
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="Pictures/11.jpg" alt="">
+                        <i class="bi playListPlay bi-play-circle-fill" id="11"></i>
+                    </div>
+            
+            <h5>Wolves <br>
+                <div class="subtitle">Selena Gomez, Marshmello</div>
+            </h5>   
+        </li>
+        <li class="songItem">
+            <div class="img_play">
+                <img src="Pictures/12.jpg" alt="">
+                <i class="bi playListPlay bi-play-circle-fill" id="12"></i>
+            </div>
+    
+    <h5>Mere Paas Tum Raho <br>
+        <div class="subtitle">Sumedh Mudgalkar,Prateeksha Srivastava</div>
+    </h5>   
+</li>
+<li class="songItem">
+    <div class="img_play">
+        <img src="Pictures/13.jpg" alt="">
+        <i class="bi playListPlay bi-play-circle-fill" id="13"></i>
+    </div>
+
+<h5>Kesariya <br>
+<div class="subtitle">Arijit Singh</div>
+</h5>   
+</li>
+<li class="songItem">
+    <div class="img_play">
+        <img src="Pictures/14.jpg" alt="">
+        <i class="bi playListPlay bi-play-circle-fill" id="14"></i>
+    </div>
+
+<h5>Vilayati Sharaab <br>
+<div class="subtitle">Darshan Raval</div>
+</h5>   
+</li>
+<li class="songItem">
+    <div class="img_play">
+        <img src="Pictures/15.jpg" alt="">
+        <i class="bi playListPlay bi-play-circle-fill" id="15"></i>
+    </div>
+
+<h5>Calm Down <br>
+<div class="subtitle">Rema,Salena Gomez</div>
+</h5>   
+</li>
+  <li class="songItem">
+     <div class="img_play">
+       <img src="Pictures/16.jpg" alt="">
+         <i class="bi playListPlay bi-play-circle-fill" id="16"></i>
+            </div>
+                    
+            <h5>Jaadui<br>
+                        <div class="subtitle">Jubin Nautiyal</div>
+                    </h5>   
+                </li>
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="Pictures/17.jpg" alt="">
+                        <i class="bi playListPlay bi-play-circle-fill" id="17"></i>
+                    </div>
+            
+            <h5>Ava <br>
+                <div class="subtitle">Famy</div>
+            </h5>   
+        </li>
+        <li class="songItem">
+            <div class="img_play">
+                <img src="Pictures/18.jpg" alt="">
+                <i class="bi playListPlay bi-play-circle-fill" id="18"></i>
+            </div>
+    
+    <h5>Shayad <br>
+        <div class="subtitle">Arijit Singh</div>
+    </h5>   
+</li>
+<li class="songItem">
+    <div class="img_play">
+        <img src="Pictures/19.jpg" alt="">
+        <i class="bi playListPlay bi-play-circle-fill" id="19"></i>
+    </div>
+
+<h5>Dariya <br>
+<div class="subtitle">Vismay Patel</div>
+</h5>   
+</li>
+<li class="songItem">
+    <div class="img_play">
+        <img src="Pictures/20.jpg" alt="">
+        <i class="bi playListPlay bi-play-circle-fill" id="20"></i>
+    </div>
+
+<h5>SNAP<br>
+<div class="subtitle">Rosa Linn</div>
+</h5>   
+</li>
+<li class="songItem">
+    <div class="img_play">
+        <img src="Pictures/21.jpg" alt="">
+        <i class="bi playListPlay bi-play-circle-fill" id="21"></i>
+    </div>
+
+<h5>Hate Me <br>
+<div class="subtitle">Juice WRLD</div>
+            </h5>   
+         </li>
+         <li class="songItem">
+            <div class="img_play">
+                <img src="Pictures/22.jpg" alt="">
+                <i class="bi playListPlay bi-play-circle-fill" id="22"></i>
+            </div>
+        
+        <h5>Ghoome <br>
+            <div class="subtitle">Vismay Patel</div>
+                    </h5>   
+                 </li>
+                 <li class="songItem">
+                    <div class="img_play">
+                        <img src="Pictures/23.jpg" alt="">
+                        <i class="bi playListPlay bi-play-circle-fill" id="23"></i>
+                    </div>
+            
+            <h5>Ghost <br>
+                <div class="subtitle">Justin Bieber</div>
+            </h5>   
+        </li>
+
+        <li class="songItem">
+            <div class="img_play">
+                <img src="Pictures/24.jpg" alt="">
+                <i class="bi playListPlay bi-play-circle-fill" id="24"></i>
+            </div>
+    
+    <h5>Stay <br>
+        <div class="subtitle">Justin Bieber,The Kid LAROI</div>
+    </h5>   
+</li>
+<li class="songItem">
+    <div class="img_play">
+        <img src="Pictures/25.jpg" alt="">
+        <i class="bi playListPlay bi-play-circle-fill" id="25"></i>
+    </div>
+
+<h5>Mere Kanha <br>
+    <div class="subtitle">Jubin Nautiyal,Jaya Kishori</div>
+</h5>   
+</li>
+<li class="songItem">
+    <div class="img_play">
+        <img src="Pictures/26.jpg" alt="">
+        <i class="bi playListPlay bi-play-circle-fill" id="26"></i>
+    </div>
+
+<h5>Chalo Chalein <br>
+    <div class="subtitle">Ritviz</div>
+</h5>   
+</li>
+<li class="songItem">
+    <div class="img_play">
+        <img src="Pictures/27.jpg" alt="">
+        <i class="bi playListPlay bi-play-circle-fill" id="27"></i>
+    </div>
+
+<h5>People You Know<br>
+    <div class="subtitle">Selena Gomez</div>
+</h5>   
+</li>
+<li class="songItem">
+    <div class="img_play">
+        <img src="Pictures/28.jpg" alt="">
+        <i class="bi playListPlay bi-play-circle-fill" id="28"></i>
+    </div>
+
+<h5>Choo lo<br>
+    <div class="subtitle">The Local Train</div>
+</h5>   
+</li>
+
+        
+      </div>
+ </div>
+        <div class="popular_artists">
+                <div class="h4">
+                    <h4>Popular Artists</h4>
+                    <div class="btn_s">
+                        <i class="bi bi-arrow-left-circle-fill" id="pop_art_left"></i>
+                        <i class="bi bi-arrow-right-circle-fill" id="pop_art_right"></i>
+                    </div>
+                </div>   
+                
+
+                <div class="item">
+                    <li>
+                       <a href="arijit.html"><img src="Pictures/Arijit singh.webp" alt="" title="Arijit Singh"></a>
+                    </li>
+                    <li>
+                      <a href="darshan.html"><img src="Pictures/DZ.webp" alt="" title="Darshan Raval"></a>
+                    </li>
+                    <li>
+                        <img src="Pictures/Jubin Nautiyal.jpg" alt="" title="Jubin Nautiyal">
+                    </li>
+                    <li>
+                        <img src="Pictures/AW.jpg" alt="" title="Alan Walker">
+                    </li>
+                    <li>
+                        <img src="Pictures/Armaan.jpg" alt="" title="Armaan Malik">
+                    </li>
+                    <li>
+                        <img src="Pictures/Atif.jpg" alt="" title="Atif Aslam">
+                    </li>
+                    <li>
+                        <img src="Pictures/Selena.jpg" alt="" title="Selena Gomez">
+                    </li> 
+                    <li>
+                        <img src="Pictures/justin.jpg" alt="" title="Justin Bieber">
+                    </li> 
+                    <li>
+                        <img src="Pictures/Vismay.jpg" alt="" title="Vismay Patel">
+                    </li> 
+                    <li>
+                        <img src="Pictures/Pritam.jpg" alt="" title="Pritam">
+                    </li> 
+                    <li>
+                        <img src="Pictures/Mohit.jpg" alt="" title="Mohit Chauhan">
+                    </li> 
+                    <li>
+                        <img src="Pictures/Shreya.jpg" alt="" title="Shreya Ghoshal">
+                    </li> 
+                    <li>
+                        <img src="Pictures/ED S.jpg" alt="" title="Ed Sheeran">
+                    </li> 
+                    <li>
+                        <img src="Pictures/ashu.jpg" alt="" title="Ashu Shukla">
+                    </li> 
+                </div>
+        </div>
+  </div>
+
+
+        <div class="master_play">
+            <div class="wave" id="Wave">
+                <div class="wave1"></div>
+                <div class="wave1"></div>
+                <div class="wave1"></div>
+            </div>
+            <img src="" alt="" id="poster_master_play">
+            <h5 id="titile">
+                Ghoome
+                <div class="subtitle">Vismay Patel</div> 
+            </h5>
+            <div class="icons">
+                <i class="bi shuffle bi-music-note-beamed">next</i>
+                <i class="bi bi-skip-start-fill" id="back"></i>
+                <i class="bi bi-play-fill" id="masterPlay"></i>   
+                <i class="bi bi-skip-end-fill" id="next"></i>
+                <a href="" download id="download_music"><i class="bi bi-cloud-arrow-down-fill"></i></a>
+
+            </div>
+            <span id="currentStart">0:00</span>
+            <div class="bar">
+                <input type="range" id="seek" min ="0" max ="100">
+                <div class="bar2" id ="bar2"></div>
+                <div class="dot"></div>
+            </div>
+            <span id="currentEnd">0:30</span>
+            <div class="vol">
+                <i class="bi bi-volume-up-fill" id="vol_icon"></i> 
+                <input type ="range" min ="0" max ="100" id ="vol">   
+                <div class="vol_bar"></div>
+                <div class="dot" id ="vol_dot"></div>
+            </div>
+
+        </div>
+    </header>
+    <script src="app.js"></script>
+    
+</body>
+</html>
